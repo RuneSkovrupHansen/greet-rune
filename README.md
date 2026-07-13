@@ -2,13 +2,21 @@
 
 Greet Rune using this Python package.
 
-Usage:
+## Installation
+
+The package is published to TestPyPI, so install it from that index:
+
+```sh
+uv add --index https://test.pypi.org/simple/ greet-rune
+```
+
+## Usage
 
 ```python
-from greet_rune import *
+from greet_rune import greet_py, greet_rust
 
-greet_py() # Hi Rune!
-greet_rust() # Hi Rune!
+greet_py()    # Hi Rune!
+greet_rust()  # Hi Rune!
 ```
 
 ## Development
